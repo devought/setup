@@ -1,0 +1,15 @@
+node_modules
+dist
+src/main.ts
+*.js
+*.log
+*.tmp
+*.cpuprofile
+*.txt
+*.cpp
+*.py
+*.ipynb
+*.go
+*.rs
+.DS_Store
+
