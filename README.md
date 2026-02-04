@@ -155,7 +155,6 @@ Add:
 	"editor.codeActionsOnSave": {
 		"source.fixAll.eslint": "explicit"
 	},
-	// "editor.fontFamily": "",
 	"editor.defaultFormatter": "esbenp.prettier-vscode",
 	"editor.fontFamily": "Lab Mono, JetBrains Mono Semibold",
 	"editor.largeFileOptimizations": true,
@@ -197,13 +196,14 @@ Add:
 	// ---- Terminal ----
 	"terminal.integrated.cursorStyle": "underline",
 	"terminal.integrated.fontSize": 12,
+	// "terminal.integrated.fontWeight": "599",
 
 	// ---- Language-Specific Formatters ----
 	"[prisma]": { "editor.defaultFormatter": "Prisma.prisma" },
-	"[go]": { "editor.defaultFormatter": "golang.go" },
 	"[snippets]": {
 		"editor.defaultFormatter": "vscode.json-language-features"
 	},
+	"[go]": { "editor.defaultFormatter": "golang.go" },
 
 	// ---- Typescript ----
 	"typescript.updateImportsOnFileMove.enabled": "always",
@@ -225,7 +225,12 @@ Add:
 	"editor.minimap.autohide": true,
 	"redhat.telemetry.enabled": true,
 	"go.toolsManagement.autoUpdate": true,
-	"editor.fontSize": 12
+	"prisma.hidePrisma6Prompts": true,
+	"workbench.startupEditor": "none",
+	"workbench.iconTheme": "flow-deep",
+	"editor.accessibilitySupport": "off",
+	"git.openRepositoryInParentFolders": "never",
+	"flow-icons.hidesExplorerArrows": true
 }
 ```
 
