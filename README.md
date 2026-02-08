@@ -1,1 +1,1 @@
-Эй, кто настоящий отец Кэрол?
+My TypeScript setup for LeetCode/Codeforces
