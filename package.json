@@ -9,8 +9,9 @@
 	"scripts": {
 		"format": "prettier --write \"src/**/*.ts\"",
 		"test": "ts-node src/main.ts < src/test.txt",
-		"bundle": "npx esbuild src/main.ts --bundle --platform=node --target=node18 --outfile=src/main.js --minify && cat src/main.js | pbcopy && rm src/main.js",
-		"benchmark": "chmod +x src/scripts/benchmark.sh && ./src/scripts/benchmark.sh"
+		"bun": "npx esbuild src/main.ts --bundle --platform=node --target=node18 --outfile=src/main.js --minify && cat src/main.js | pbcopy && rm src/main.js",
+		"benchmark": "chmod +x src/scripts/benchmark.sh && ./src/scripts/benchmark.sh",
+		"code": "tsc src/main.ts && cat src/main.js | pbcopy && rm src/main.js"
 	},
 	"devDependencies": {
 		"@trivago/prettier-plugin-sort-imports": "^6.0.0",
