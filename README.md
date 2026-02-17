@@ -180,12 +180,12 @@
 
 ```
 
-### Codeforces template
+### CP Template
 
 ```JSON
 {
-	"TypeScript Template": {
-		"prefix": "ts",
+	"Codeforces": {
+		"prefix": "cf",
 		"body": [
 			"import * as fs from \"fs\";",
 			"",
@@ -221,8 +221,16 @@
 			"",
 			"main();"
 		],
-		"description": "Codeforces TypeScript template with fast I/O + debug input support"
 	},
+	"Leetcode": {
+		"prefix": "lc",
+		"body": [
+			"class Solution {",
+			"    $1($2) {",
+			"        $0",
+			"    }",
+			"}"
+		]
+	}
 }
-
 ```
