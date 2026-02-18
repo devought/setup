@@ -17,6 +17,7 @@
   "editor.wordWrap": "on",
   "editor.formatOnSave": true,
   "markdown.preview.fontFamily": "Lab Mono",
+  "markdown.preview.fontSize": 12,
 
   // ---- File Associations ----
   "files.associations": {
@@ -51,10 +52,8 @@
   "terminal.integrated.fontSize": 12,
 
   // ---- Language-Specific Formatters ----
-  "[prisma]": { "editor.defaultFormatter": "Prisma.prisma-insider" },
+  "[prisma]": { "editor.defaultFormatter": "Prisma.prisma" },
   "[snippets]": { "editor.defaultFormatter": "vscode.json-language-features" },
-  "[go]": { "editor.defaultFormatter": "golang.go" },
-
   // ---- Typescript ----
   "typescript.updateImportsOnFileMove.enabled": "always",
 
@@ -75,9 +74,10 @@
   "redhat.telemetry.enabled": true,
   "workbench.startupEditor": "none",
   "workbench.iconTheme": "flow-deep",
-  "flow-icons.hidesExplorerArrows": true    ,
+  "flow-icons.hidesExplorerArrows": true,
   "editor.accessibilitySupport": "off"
 }
+
 ```
 
 ### TypeScript snippets
@@ -234,3 +234,30 @@
 	}
 }
 ```
+
+My VSCode Extensions:
+
+- Docker
+- Prisma
+- Code Runner
+- Container Tools
+- Dev Containers
+- Auto Rename Tag
+- DotENV
+- Error Lens
+- ES7+ Snippets
+- ESLint
+- Flow Icons
+- Github Pull Requests
+- GitLens
+- GraphQL
+- Terraform
+- HTML CSS Support
+- ES6 Snippets
+- Live Server
+- Live Share
+- Path Intellisense
+- Prettier
+- Rainbow CSV
+- Tailwind CSS
+- Template String Converter
