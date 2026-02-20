@@ -1,0 +1,47 @@
+{
+	"Set type number": {
+		"scope": "typescript,typescriptreact,vue",
+		"prefix": "n",
+		"body": "number"
+	},
+	"Set type number[]": {
+		"scope": "typescript,typescriptreact,vue",
+		"prefix": "nn",
+		"body": "number[]"
+	},
+	"Set type number[][]": {
+		"scope": "typescript,typescriptreact,vue",
+		"prefix": "nnn",
+		"body": "number[][]"
+	},
+	"Set type string": {
+		"scope": "typescript,typescriptreact,vue",
+		"prefix": "s",
+		"body": "string"
+	},
+	"Set type string[]": {
+		"scope": "typescript,typescriptreact,vue",
+		"prefix": "ss",
+		"body": "string[]"
+	},
+	"Set type string[][]": {
+		"scope": "typescript,typescriptreact,vue",
+		"prefix": "sss",
+		"body": "string[][]"
+	},
+	"Set type boolean": {
+		"scope": "typescript,typescriptreact,vue",
+		"prefix": "b",
+		"body": "boolean"
+	},
+	"Set type boolean[]": {
+		"scope": "typescript,typescriptreact,vue",
+		"prefix": "bb",
+		"body": "boolean[]"
+	},
+	"Set type boolean[][]": {
+		"scope": "typescript,typescriptreact,vue",
+		"prefix": "bbb",
+		"body": "boolean[][]"
+	}
+}

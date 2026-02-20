@@ -1,0 +1,38 @@
+{
+	"Fast Console Log": {
+		"scope": "typescript,javascript,typescriptreact,javascriptreact,vue,html,svelte",
+		"prefix": "cl",
+		"body": "console.log($0);",
+		"description": "Fast console.log"
+	},
+	"Debug log (labeled)": {
+		"scope": "typescript,javascript,typescriptreact,javascriptreact,vue,svelte",
+		"prefix": "dbg",
+		"body": "console.log('$1:', $1);",
+		"description": "Debug log with variable label"
+	},
+	"Destructure rename": {
+		"scope": "typescript,javascript,typescriptreact,javascriptreact,vue,svelte",
+		"prefix": "dr",
+		"body": "const { $2 } = $1;",
+		"description": "Object destructuring with rename"
+	},
+	"Frequency map (counter)": {
+		"scope": "typescript,typescriptreact,vue",
+		"prefix": "counter",
+		"body": [
+			"const freq = new Map<$1, number>();",
+			"for (const x of $2) {",
+			"    freq.set(x, (freq.get(x) ?? 0) + 1);",
+			"}",
+			"$0"
+		],
+		"description": "Frequency map using Map<K, number>"
+	},
+	"Traditional for loop": {
+		"scope": "typescript,javascript,typescriptreact,javascriptreact,vue",
+		"prefix": "defor",
+		"body": ["for (let i = 0; i < $1; i++) {", "  $2", "}"],
+		"description": "Traditional indexed for loop"
+	}
+}

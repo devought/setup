@@ -1,0 +1,44 @@
+{
+	"Codeforces": {
+		"prefix": "cf",
+		"body": [
+			"import * as fs from \"fs\";",
+			"",
+			"const readInput = () => {",
+			"    const debug = process.env.DEBUG_FILE_INPUT;",
+			"    return fs.readFileSync(debug ?? 0, \"utf-8\");",
+			"};",
+			"",
+			"const data = readInput();",
+			"const tokens = data.split(/\\s+/g).filter(Boolean);",
+			"const lines = data.split(/\\r?\\n/);",
+			"",
+			"let t = 0;",
+			"let l = 0;",
+			"",
+			"const read = () => tokens[t++]",
+			"const int = () => Number(read())",
+			"const line = () => lines[l++]",
+			"const readline = () => line().trim().split(/\\s+/g)",
+			"",
+			"let out = '';",
+			"const write = (...s: any[]) => (out += s.join(' ') + \"\\n\");",
+			"const flush = () => process.stdout.write(out);",
+			"",
+			"function solve() {",
+			"    $0",
+			"}",
+			"",
+			"function main() {",
+			"    solve();",
+			"    flush();",
+			"}",
+			"",
+			"main();"
+		]
+	},
+	"Leetcode": {
+		"prefix": "lc",
+		"body": ["class Solution {", "    $1($2) {", "        $0", "    }", "}"]
+	}
+}
