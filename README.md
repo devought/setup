@@ -28,3 +28,4 @@ My VSCode Extensions:
 - SVG Preview
 - SCSS Intellisense
 - Code Spell Checker
+- Nginx Configuration
